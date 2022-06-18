@@ -1,0 +1,27 @@
+.counter{
+  width: calc(100vw - 100px);
+  height: calc(100vh - 60px);
+  color: white;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .btn{
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 24px;
+
+    &.red{
+      background-color: red;
+    }
+
+    &.green{
+      background-color: green;
+    }
+  }
+}
